@@ -53,8 +53,8 @@ void main() {
     // Use the `findsOneWidget` matcher provided by flutter_test to verify
     // that the Text widgets appear exactly once in the widget tree.
     expect(abbvFinder, findsOneWidget);
-    expect(circ.backgroundColor, Colors.black54);
-    expect(ctext.data, "t");
+    expect(circ.backgroundColor, Colors.black);
+    expect(ctext.data, "test");
   });
 
   testWidgets('Default ToDoList has one item', (tester) async {
@@ -88,4 +88,5 @@ void main() {
   });
 
   // One to test the tap and press actions on the items?
+  
 }
