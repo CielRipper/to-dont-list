@@ -35,7 +35,7 @@ void main() {
     expect(textFinder, findsOneWidget);
   });
 
-  testWidgets('ToDoListItem has a Circle Avatar with abbreviation',
+  testWidgets('ToDoListItem has a Circle Avatar with the items name',
       (tester) async {
     await tester.pumpWidget(MaterialApp(
         home: Scaffold(
@@ -88,5 +88,5 @@ void main() {
   });
 
   // One to test the tap and press actions on the items?
-  
+
 }
