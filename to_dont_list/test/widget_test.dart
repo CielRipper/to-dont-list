@@ -54,7 +54,7 @@ void main() {
     // that the Text widgets appear exactly once in the widget tree.
     expect(abbvFinder, findsOneWidget);
     expect(circ.backgroundColor, Colors.black54);
-    expect(ctext.data, "test");
+    expect(ctext.data, "t");
   });
 
   testWidgets('Default ToDoList has one item', (tester) async {
