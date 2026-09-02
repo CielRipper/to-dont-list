@@ -35,7 +35,7 @@ void main() {
     expect(textFinder, findsOneWidget);
   });
 
-  testWidgets('ToDoListItem has a Circle Avatar with the items name',
+  testWidgets('ToDoListItem has a Circle Avatar with abbreviation',
       (tester) async {
     await tester.pumpWidget(MaterialApp(
         home: Scaffold(
